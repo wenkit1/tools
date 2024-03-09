@@ -9,10 +9,6 @@
 
 > 如果你想共同维护仓库，欢迎在讨论版块告诉我。
 
-<p align="left">
-<a href="README.md">English</a> |
-<a href="README-CN.md">简体中文</a>
-</p>
 
 对于熟悉 Scoop 的用户：
 
