@@ -17,7 +17,7 @@
 对于熟悉 Scoop 的用户：
 
 ```powershell
-scoop bucket add scoopet https://github.com/ivaquero/scoopet
+scoop bucket add scoopet https://github.com/wenkit1/tools
 ```
 
 # :running: 开始
