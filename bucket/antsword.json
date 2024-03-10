@@ -18,7 +18,7 @@
     },
     "bin": "AntSword.exe",
     "post_install": [
-        "wget.exe -O \"$dir\\antSword.zip\" \"https://github.com/AntSwordProject/antSword/archive/refs/heads/master.zip\"",
+        "curl.exe -o \"$dir\\antSword.zip\" -L \"https://github.com/AntSwordProject/antSword/archive/refs/heads/master.zip\"",
         "Expand-7zipArchive \"$dir\\antSword.zip\" \"$dir\"",
         "Remove-Item \"$dir\\antSword.zip\" -Force -Recurse",
         "Move-Item \"$dir\\antSword-master\" \"$dir\\antSword\""
