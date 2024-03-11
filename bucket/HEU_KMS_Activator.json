@@ -1,0 +1,15 @@
+{
+    "version": "42.0.1",
+    "description": "Windows系统激活工具",
+    "homepage": "https://github.com/zbezj/HEU_KMS_Activator",
+    "license": "Freeware",
+    "url": "https://github.com/zbezj/HEU_KMS_Activator/releases/download/42.0.1/HEU_KMS_Activator_v42.0.1.rar",
+    "hash": "sha1:3ac9182c8a047c311468c9b6f53a78e51a2e45b3",
+    "post_install": [
+        "Move-Item -Path \"$dir\\HEU_KMS_Activator_$version.exe\" -Destination \"$dir\\HEU_KMS_Activator.exe\""
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/zbezj/HEU_KMS_Activator/releases/download/$version/HEU_KMS_Activator_v$version.rar"
+    }
+}
