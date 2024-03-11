@@ -13,8 +13,8 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/WangYihang/GitHacker/tags",
-        "jsonpath": "$..zipball_url",
-        "regex": "/v([\\d.]+)"
+        "jsonpath": "$.[0].name",
+        "regex": "v([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/WangYihang/GitHacker/archive/refs/tags/v$version.zip"
