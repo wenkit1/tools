@@ -11,7 +11,11 @@
         "Remove-Item \"$dir\\GitHacker-$version\" -Force -Recurse",
         "pip3 install githacker"
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/WangYihang/GitHacker/tags",
+        "jsonpath": "$..zipball_url",
+        "regex": "/v([\\d.]+)"
+    },
     "autoupdate": {
         "url": "https://github.com/WangYihang/GitHacker/archive/refs/tags/v$version.zip"
     }
