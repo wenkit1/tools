@@ -1,0 +1,20 @@
+{
+    "version": "1.3",
+    "description": "基于SQLmap工具进行汉化，并提供GUI界面",
+    "homepage": "https://github.com/honmashironeko/sqlmap-gui",
+    "license": "Apache License",
+    "url": "https://github.com/honmashironeko/sqlmap-gui/releases/download/sqlmap-gui-v1.3/sqlmap-gui-v1.3.zip",
+    "hash": "f4f4621b446538c89224d09ff428c2bdbec5d4d2684ab7423563fde54452bb69",
+    "post_install": [
+        "Move-Item -Path \"$dir\\Windows双击启动图形化.bat\" -Destination \"$dir\\sqlmap-gui.bat\""
+    ],
+    "bin": "sqlmap-gui.bat",
+    "checkver": {
+        "url": "https://api.github.com/repos/honmashironeko/sqlmap-gui/releases/latest",
+        "jsonpath": "$.name",
+        "regex": "sqlmap-gui-v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/honmashironeko/sqlmap-gui/releases/download/sqlmap-gui-v$version/sqlmap-gui-v$version.zip"
+    }
+}
