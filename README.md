@@ -116,11 +116,12 @@ scoop config aria2-min-split-size 4M
 
 ### 工具
 
-|   App    | 自动更新 |                           原创                            |
-| :------: | :------: | :-------------------------------------------------------: |
-|  fscan   |    ✓     |   [shadow1ng/fscan](https://github.com/shadow1ng/fscan)   |
-|  kscan   |    ✓     |      [lcvvvv/kscan](https://github.com/lcvvvv/kscan)      |
-| Behinder |    ✓     | [rebeyond/Behinder](https://github.com/rebeyond/Behinder) |
+|   App    |                         官方网址                            |
+| :------: | :-------------------------------------------------------: |
+|  fscan   |   [shadow1ng/fscan](https://github.com/shadow1ng/fscan)   |
+|  kscan   |      [lcvvvv/kscan](https://github.com/lcvvvv/kscan)      |
+| Behinder | [rebeyond/Behinder](https://github.com/rebeyond/Behinder) |
+| antsword | [AntSwordProject/antSword](https://github.com/AntSwordProject/antSword) |
 
 
 
