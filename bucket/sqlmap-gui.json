@@ -6,9 +6,13 @@
     "url": "https://github.com/honmashironeko/sqlmap-gui/releases/download/sqlmap-gui-v1.3/sqlmap-gui-v1.3.zip",
     "hash": "7837d9940ac04e6397df8a34befdb0742e5c5b0212b89b343866e399dab6ae3e",
     "pre_install": [
-        "Move-Item -Path \"$dir\\Windows双击启动图形化.bat\" -Destination \"$dir\\sqlmap-gui.bat\""
+        "Move-Item -Path \"$dir\\Windows双击启动图形化.bat\" -Destination \"$dir\\sqlmap-gui.bat\"",
+        "Set-Content \"$dir\\sqlmap-gui.vbs\" 'set ws=createobject(\"wscript.shell\")",
+        "run=ws.Run(\"sqlmap-gui.bat\",0)' -Encoding Ascii"
     ],
-    "bin": "sqlmap-gui.bat",
+    "bin": [
+        "sqlmap-gui.bat"
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/honmashironeko/sqlmap-gui/releases/latest",
         "jsonpath": "$.name",
