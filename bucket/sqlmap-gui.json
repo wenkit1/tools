@@ -14,8 +14,7 @@
         "sqlmap-gui.bat"
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/honmashironeko/sqlmap-gui/releases/latest",
-        "jsonpath": "$.name",
+        "url": "https://github.com/honmashironeko/sqlmap-gui/releases/latest",
         "regex": "sqlmap-gui-v([\\d.]+)"
     },
     "autoupdate": {

@@ -12,8 +12,7 @@
     ],
     "bin": "godzilla.bat",
     "checkver": {
-        "url": "https://api.github.com/repos/BeichenDream/Godzilla/releases/latest",
-        "jsonpath": "$.name",
+        "url": "https://github.com/BeichenDream/Godzilla/releases/latest",
         "regex": "v([\\d.]+)-godzilla"
     },
     "autoupdate": {
