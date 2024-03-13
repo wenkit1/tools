@@ -1,13 +1,13 @@
 {
-    "version": "9.5",
+    "version": "9.1",
     "description": "密码爆破工具",
-    "homepage": "https://github.com/vanhauser-thc/thc-hydra",
+    "homepage": "https://github.com/maaaaz/thc-hydra-windows",
     "license": "AGPL-3.0",
-    "url": "https://github.com/vanhauser-thc/thc-hydra/archive/refs/tags/v9.5.zip",
-    "hash": "e84a86b33075b423ced88cc6e19740ac951f589310c860a77e62fdfa8683366b",
+    "url": "https://github.com/maaaaz/thc-hydra-windows/releases/download/v9.1/thc-hydra-windows-v9.1.zip",
+    "hash": "9187807a0eb685af0449b7af030f8966fc4bf61dbfa2b06039c29535d8b2d343",
     "bin": "hydra.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/vanhauser-thc/thc-hydra/archive/refs/tags/v$version.zip"
+        "url": "https://github.com/maaaaz/thc-hydra-windows/releases/download/v$version/thc-hydra-windows-v$version.zip"
     }
 }
