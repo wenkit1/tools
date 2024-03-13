@@ -1,0 +1,13 @@
+{
+    "version": "9.5",
+    "description": "密码爆破工具",
+    "homepage": "https://github.com/vanhauser-thc/thc-hydra",
+    "license": "AGPL-3.0",
+    "url": "https://github.com/vanhauser-thc/thc-hydra/archive/refs/tags/v9.5.zip",
+    "hash": "e84a86b33075b423ced88cc6e19740ac951f589310c860a77e62fdfa8683366b",
+    "bin": "hydra.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/vanhauser-thc/thc-hydra/archive/refs/tags/v$version.zip"
+    }
+}
