@@ -4,7 +4,7 @@
     "homepage": "https://github.com/ttstormxx/jjjjjjjjjjjjjs",
     "license": "MIT license",
     "url": "https://github.com/ttstormxx/jjjjjjjjjjjjjs/releases/download/v2.4.0/jjjjjjjjjjjjjs_windows_amd64_v2.4.0.exe",
-    "hash": "9187807a0eb685af0449b7af030f8966fc4bf61dbfa2b06039c29535d8b2d343",
+    "hash": "5da265ba5e88988daea76bf2dcb064ee8cf5d63e31943521f809c805efc610f1",
     "pre_install": "Move-Item -Path \"$dir\\jjjjjjjjjjjjjs_windows_amd64_v$version.exe\" -Destination \"$dir\\jjjjjjjjjjjjjs.exe\"",
     "bin": "jjjjjjjjjjjjjs.exe",
     "checkver": "github",
