@@ -1,0 +1,17 @@
+{
+    "version": "4.4.4",
+    "description": "基于wallhaven.cc的一款壁纸管理工具",
+    "homepage": "https://github.com/leoFitz1024/wallhaven",
+    "license": "GPL-3.0 license",
+    "url": "https://github.com/leoFitz1024/wallhaven/releases/download/v4.4.4/wallhaven-4.4.4-setup.exe#/dl.7z",
+    "hash": "3f08129f4efdb8a6d7f9677f40c3a1bf3beac5719253683673796997baf88a05",
+    "installer": {
+        "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-64.7z\" \"$dir\""
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse",
+    "bin": "wallhaven.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/leoFitz1024/wallhaven/releases/download/v$version/wallhaven-$version-setup.exe#/dl.7z"
+    }
+}
