@@ -5,9 +5,11 @@
     "license": "license",
     "url": "https://github.com/NHPT/Xray_Cracked/releases/download/v1.9.11/xray_windows_amd64.exe",
     "hash": "0f5e62026e74e038e789655b7a4a497e0190899adedb9e1865c4dc68148855e6",
-    "post_install": [
-        "wget.exe -O \"$dir\\xray-license.lic\" \"https://github.com/NHPT/Xray_Cracked/releases/download/v1.9.11/xray-license.lic\"",
+    "pre_install": [
         "Move-Item \"$dir\\xray_windows_amd64.exe\" \"$dir\\xray.exe\""
+    ],
+    "post_install": [
+        "wget.exe -O \"$dir\\xray-license.lic\" \"https://github.com/NHPT/Xray_Cracked/releases/download/v1.9.11/xray-license.lic\""
     ],
     "bin": "xray.exe",
     "checkver": "github",
