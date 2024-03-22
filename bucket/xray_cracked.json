@@ -7,17 +7,9 @@
     "hash": "0f5e62026e74e038e789655b7a4a497e0190899adedb9e1865c4dc68148855e6",
     "pre_install": [
         "wget.exe -O \"$dir\\xray-license.lic\" \"https://github.com/NHPT/Xray_Cracked/releases/download/v$version/xray-license.lic\"",
-        "Rename-Item \"$dir\\xray_windows_amd64.exe\" 'xray.exe'",
-        "if (!(Test-Path \"$dir\\ca.crt\")) {",
-        "    warn 'GenerateToFile CA certificate and key ...'",
-        "    Start-Process -NoNewWindow -FilePath \"$dir\\xray.exe\" -WorkingDirectory \"$dir\" -ArgumentList @('genca') -Wait | Out-Null ",
-        "}"
+        "Rename-Item \"$dir\\xray_windows_amd64.exe\" 'xray.exe'"
     ],
     "bin": "xray.exe",
-    "persist": [
-        "ca.crt",
-        "ca.key"
-    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/NHPT/Xray_Cracked/releases/download/v$version/xray_windows_amd64.exe"
