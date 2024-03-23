@@ -1,0 +1,21 @@
+{
+    "version": "2.2.0",
+    "description": "WAFW00F 允许用户对保护网站的 Web 应用程序防火墙 (WAF) 产品进行识别和指纹识别。",
+    "homepage": "https://github.com/EnableSecurity/wafw00f",
+    "license": "BSD-3-Clause license",
+    "suggest": "python3",
+    "url": "https://github.com/EnableSecurity/wafw00f/archive/refs/tags/v2.2.0.zip",
+    "hash": "541fd3613a77433b89af404150e13e3690b8adc9a179cf17a4b135d4d0a4517a",
+    "pre_install": "Set-Content \"$dir\\wafw00f.bat\" '@pushd %~dp0\npython3 \".\\wafw00f\\main.py\" %*\n@popd' -Encoding Ascii",
+    "post_install": [
+        "Move-Item -Path \"$dir\\wafw00f-$version\\*\" -Destination \"$dir\\\"",
+        "Remove-Item \"$dir\\wafw00f-$version\" -Force -Recurse",
+        "cd $dir",
+        "python3  \"$dir\\setup.py\" install"
+    ],
+    "bin": "wafw00f.bat",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/EnableSecurity/wafw00f/archive/refs/tags/v$version.zip"
+    }
+}
