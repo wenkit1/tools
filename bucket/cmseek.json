@@ -13,7 +13,10 @@
         "pip3 install -r \"$dir\\requirements.txt\""
     ],
     "bin": "CMSeeK.bat",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/Tuhinshubhra/CMSeeK/releases/latest",
+        "regex": "/releases/tag/v.([\\d.]+)"
+    },
     "autoupdate": {
         "url": "https://github.com/Tuhinshubhra/CMSeeK/archive/refs/tags/v.$version.zip"
     }
