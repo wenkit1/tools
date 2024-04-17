@@ -1,0 +1,16 @@
+{
+    "version": "4.2",
+    "description": "图形化渗透测试辅助工具",
+    "homepage": "https://github.com/doimet/AuxTools",
+    "license": "Free",
+    "url": "https://github.com/doimet/AuxTools/releases/download/4.2/AuxTools-Windows-4.2.zip",
+    "hash": "bbd71b3dbe7ebb45d2bd886bc1603c646a71dac15a3b02e940d03d5b26f17641",
+    "post_install": [
+        "Rename-Item \"$dir\\main.exe\" 'auxtools.exe'"
+    ],
+    "bin": "auxtools.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/doimet/AuxTools/releases/download/$version/AuxTools-Windows-$version.zip"
+    }
+}
