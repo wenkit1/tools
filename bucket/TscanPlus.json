@@ -5,7 +5,7 @@
     "license": "license",
     "url": "https://github.com/TideSec/TscanPlus/releases/download/v1.8/TscanPlus_windows_amd64_v1.8.zip",
     "hash": "044ba0f90fd5cbdec5cbbecf0d35c9f0337f8de3402beb89abd2079e61198342",
-    "pre_install": "Rename-Item \"$dir\\TscanPlus_windows_amd64_v1.7-upx.exe\" 'TscanPlus.exe'",
+    "pre_install": "Rename-Item \"$dir\\TscanPlus_windows_amd64_v$version-upx.exe\" 'TscanPlus.exe'",
     "bin": "TscanPlus.exe",
     "checkver": "github",
     "autoupdate": {
