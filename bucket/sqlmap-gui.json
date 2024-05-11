@@ -4,7 +4,7 @@
     "homepage": "https://github.com/honmashironeko/sqlmap-gui",
     "license": "Apache License",
     "url": "https://github.com/honmashironeko/sqlmap-gui/releases/download/sqlmap-gui-v1.4/sqlmap-gui-v1.4.zip",
-    "hash": "d81619fda74caf21318522b9d438a5b552d1cbb80d827cf1c6cc498f8ec9a109",
+    "hash": "8341c421a824b5311277dd506f5b8e8027b0876ddec40a946c09f2c3ad88ce20",
     "pre_install": [
         "Move-Item -Path \"$dir\\Windows双击启动图形化.bat\" -Destination \"$dir\\sqlmap-gui.bat\"",
         "Set-Content \"$dir\\sqlmap-gui.vbs\" 'set ws=createobject(\"wscript.shell\")",
