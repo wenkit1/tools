@@ -4,7 +4,7 @@
     "homepage": "https://gobysec.net/",
     "license": "Freeware",
     "url": "https://goby-storage-public.oss-cn-beijing.aliyuncs.com/2.9.3/goby-win-x64-2.9.3-Community.zip",
-    "hash": "2678cc759e08e37c86a30ddda25cf158177a7a1311261182b53696ba5bf5cfbb",
+    "hash": "eb7071654b09667410b9adde41abe7bce0aa752271720d839c8251b288f5b03a",
     "extract_dir": "goby-win-x64-2.9.3",
     "bin": [
         [
