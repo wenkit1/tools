@@ -1,11 +1,11 @@
 {
-    "version": "2.9.3",
+    "version": "2.9.4",
     "description": "新一代网络安全技术，通过为目标建立完整的资产数据库，实现快速的安全应急。",
     "homepage": "https://gobysec.net/",
     "license": "Freeware",
-    "url": "https://goby-storage-public.oss-cn-beijing.aliyuncs.com/2.9.3/goby-win-x64-2.9.3-Community.zip",
-    "hash": "eb7071654b09667410b9adde41abe7bce0aa752271720d839c8251b288f5b03a",
-    "extract_dir": "goby-win-x64-2.9.3",
+    "url": "https://goby-storage-public.oss-cn-beijing.aliyuncs.com/2.9.4/goby-win-x64-2.9.4-Community.zip",
+    "hash": "b2d3522ab6c9f5089dd2e0bbffae94e9316c59893b2a9ba2647577c0a230d8fc",
+    "extract_dir": "goby-win-x64-2.9.4",
     "bin": [
         [
             "Goby.exe",

@@ -1,10 +1,10 @@
 {
-    "version": "1.16.0",
+    "version": "1.17.0",
     "description": "Windows 平台的 FRP GUI 客户端 / A user-friendly desktop GUI client for FRP on Windows.",
     "homepage": "https://github.com/koho/frpmgr",
     "license": "Apache-2.0 license",
-    "url": "https://github.com/koho/frpmgr/releases/download/v1.16.0/frpmgr-1.16.0-x64.zip",
-    "hash": "6ba0fc2d0fb446a185f06bd8ccb1b2feee8f73d2a85e3e03bc43ecacf2ea4ce6",
+    "url": "https://github.com/koho/frpmgr/releases/download/v1.17.0/frpmgr-1.17.0-x64.zip",
+    "hash": "0ac2c6f82ca80dcf2312bb5760a529be557e5b380df3e051bcb488d468bee5e3",
     "bin": "frpmgr.exe",
     "checkver": "github",
     "autoupdate": {
