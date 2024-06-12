@@ -5,7 +5,7 @@
     "license": "Freeware",
     "url": "https://github.com/zbezj/HEU_KMS_Activator/releases/download/42.0.4/HEU_KMS_Activator_v42.0.4.rar",
     "hash": "1782d8fdaaa92758cd040fded19c923c026c0c2c57938abe1bc163c84113cc38",
-    "post_install": "Move-Item -Path \"$dir\\HEU_KMS_Activator_$version.exe\" -Destination \"$dir\\HEU_KMS_Activator.exe\"",
+    "post_install": "Move-Item -Path \"$dir\\HEU_KMS_Activator_v$version.exe\" -Destination \"$dir\\HEU_KMS_Activator.exe\"",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/zbezj/HEU_KMS_Activator/releases/download/$version/HEU_KMS_Activator_v$version.rar"
