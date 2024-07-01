@@ -1,11 +1,11 @@
 {
-    "version": "1.3.3-sp5",
+    "version": "1.3.4-sp1",
     "description": "网络安全一体化平台",
     "homepage": "https://github.com/yaklang/yakit",
     "notes": "安装成功后需手动启动并初始化本地引擎^-^",
     "license": "AGPL-3.0",
-    "url": "https://yaklang.oss-cn-beijing.aliyuncs.com/yak/1.3.3-sp5/Yakit-1.3.3-sp5-windows-amd64.exe#/dl.7z",
-    "hash": "9724890dc22e1b12e4505d6eab912933546ba97fe3e08235f9e093bcc581fb81",
+    "url": "https://yaklang.oss-cn-beijing.aliyuncs.com/yak/1.3.4-sp1/Yakit-1.3.4-sp1-windows-amd64.exe#/dl.7z",
+    "hash": "f898fef736b1df835b2ee8ace139d2b417b571d37c895692178486236f83628b",
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-64.7z\" \"$dir\""
     },

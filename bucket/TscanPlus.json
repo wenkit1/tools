@@ -1,14 +1,14 @@
 {
-    "version": "1.9",
+    "version": "2.1",
     "description": "一款综合性网络安全检测和运维工具，旨在快速资产发现、识别、检测，构建基础资产信息库，协助甲方安全团队或者安全运维人员有效侦察和检索资产，发现存在的薄弱点和攻击面。",
     "homepage": "https://github.com/TideSec/TscanPlus",
     "license": "license",
-    "url": "https://github.com/TideSec/TscanPlus/releases/download/v1.9/TscanPlus_windows_amd64_v1.9.zip",
-    "hash": "1ee7cdc10b986e5dd2edc535684cd6b47ecd4f715320bca6ea658e40a5bdd816",
-    "pre_install": "Rename-Item \"$dir\\TscanPlus_windows_amd64_v$version-upx.exe\" 'TscanPlus.exe'",
+    "url": "https://github.com/TideSec/TscanPlus/releases/download/v2.1/TscanPlus_Win_Amd64_v2.1.zip",
+    "hash": "d74d075bdfa67b372f7d8f8cde6429f5ec8ead54706d668f6500cf57a5b4c8db",
+    "pre_install": "Rename-Item \"$dir\\TscanPlus_Win_v$version-upx.exe\" 'TscanPlus.exe'",
     "bin": "TscanPlus.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_windows_amd64_v$version.zip"
+        "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Amd64_v$version.zip"
     }
 }
