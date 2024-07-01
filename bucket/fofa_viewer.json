@@ -1,0 +1,20 @@
+{
+    "version": "1.1.15",
+    "description": "用 JavaFX 编写的简单 FOFA 客户端。由 WgpSec 制作，由 f1ashine 维护。 ",
+    "homepage": "https://github.com/wgpsec/fofa_viewer",
+    "license": "MIT license",
+    "url": "https://github.com/wgpsec/fofa_viewer/releases/download/1.1.15/FofaViewer_1.1.15.zip",
+    "hash": "2288e2c62f1f060e2d89b75c8a9eb707304284b22b699a0268951ba4d47e039b",
+    "pre_install": [
+        "Set-Content \"$dir\\FofaViewer.bat\" '@pushd %~dp0\njava -jar --add-opens java.base/java.lang=ALL-UNNAMED fofaviewer.jar %*\n@popd' -Encoding Ascii",
+        "Set-Content \"$dir\\start.vbs\" 'set ws=createobject(\"wscript.shell\")\nws.Run \"\"\"FofaViewer.bat\"\"\",0' -Encoding Ascii"
+    ],
+    "bin": "FofaViewer.bat",
+    "persist": [
+        "config.properties"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/wgpsec/fofa_viewer/releases/download/$version/FofaViewer_$version.zip"
+    }
+}
